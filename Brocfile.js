@@ -8,8 +8,15 @@ var html = funnel('.', {
 });
 
 var styles = concat('.', {
-               inputFiles : ['style.css'],
+               inputFiles : ['style.css',
+                             'fontello/css/fontello.css'],
                outputFile : '/site.css'
              });
 
-module.exports = mergeTrees([html, styles]);
+var fonts = funnel('fontello/font', {
+  files   : ['fontello.woff',
+             'fontello.ttf'],
+  destDir : '/font'
+});
+
+module.exports = mergeTrees([html, styles, fonts]);
