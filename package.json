@@ -18,6 +18,8 @@
   "homepage": "https://github.com/givanse/broccolijs-from-scratch",
   "devDependencies": {
     "broccoli": "^0.16.2",
-    "broccoli-funnel": "^0.2.3"
+    "broccoli-concat": "0.0.13",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "^0.2.1"
   }
 }
