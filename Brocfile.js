@@ -15,6 +15,7 @@ var styles = concat('.', {
 
 var fonts = funnel('fontello/font', {
   files   : ['fontello.woff',
+             'fontello.woff2',
              'fontello.ttf'],
   destDir : '/font'
 });

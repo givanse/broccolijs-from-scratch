@@ -1,6 +1,6 @@
 {
   "name": "broccolijs-from-scratch",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Build a website from scratch with Broccoli.js",
   "main": "index.js",
   "scripts": {
@@ -11,15 +11,15 @@
     "url": "git@github.com:givanse/broccolijs-from-scratch.git"
   },
   "author": "givanse",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/givanse/broccolijs-from-scratch/issues"
   },
   "homepage": "https://github.com/givanse/broccolijs-from-scratch",
   "devDependencies": {
-    "broccoli": "^0.16.2",
-    "broccoli-concat": "0.0.13",
-    "broccoli-funnel": "^0.2.3",
-    "broccoli-merge-trees": "^0.2.1"
+    "broccoli": "^1.0.0-beta.7",
+    "broccoli-concat": "^2.3.4",
+    "broccoli-funnel": "^1.0.6",
+    "broccoli-merge-trees": "^1.1.4"
   }
 }
